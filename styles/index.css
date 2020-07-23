@@ -479,3 +479,71 @@ height: 96px;
             margin-left:99.62px;
             
         }
+        @media only screen and (max-width: 714px) {
+            #pictures{
+            margin-top:240px;
+            margin-left:-240px;
+            }
+            #aboutMeHeader{
+                margin-top:140px;
+                margin-right:-9px;
+                float:right                                
+           }
+            .picture4{
+               float:right;
+               margin-top:0px;
+               clear:both;
+            }
+            .aboutText{
+                float:right;
+                margin-top:20px;
+                margin-right:0px;
+                padding-bottom: 60px;
+                clear:both;
+            }
+            .content .smallCircle2{
+                float:left;
+                margin-left:1055px;
+            }
+            .content #circleText2{
+                float:left;
+                margin-left:-28px;
+                margin-top:12.5;
+                font-family:Jaldi;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 30px;
+                letter-spacing: 0.02em;
+                color: #011F01;
+                
+            }
+            .worksPicture1c1{
+               
+width: 196.21px;
+height: 175.97px;
+margin-bottom:-20px;
+            } .worksPicture1c2{
+               
+width: 196.21px;
+height: 175.97px;
+margin-left:30px;
+
+margin-bottom:-20px;
+            } .worksPicture2c1{
+               
+width: 196.21px;
+height: 175.97px;
+            } .worksPicture2c2{
+               
+width: 196.21px;
+height: 175.97px;
+margin-left:30px;
+            }
+            .worksPicture1c3{
+                display:none;
+            }
+            .worksPicture2c3{
+                display:none;
+            }
+        }
