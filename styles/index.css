@@ -416,7 +416,7 @@ height: 96px;
         }
         footer {
             margin-top:400px;
-            width: 100%;
+            width: 1440px;
             height: 227px;
             left: 0px;
             top: 4565px;
@@ -479,7 +479,17 @@ height: 96px;
             margin-left:99.62px;
             
         }
+        img{
+            max-width:100%;
+            display: block;
+        }
         @media only screen and (max-width: 714px) {
+           .wrapper{
+               width:714px;
+           }
+           #header li.works a{
+            margin-left:174px;
+            }
             #pictures{
             margin-top:240px;
             margin-left:-240px;
@@ -494,6 +504,11 @@ height: 96px;
                margin-top:0px;
                clear:both;
             }
+            #offerBackground
+			{
+				display: inline-block;
+				
+			}
             .aboutText{
                 float:right;
                 margin-top:20px;
